@@ -1,0 +1,10 @@
+In order to make the app run as docker container. The following was done:
+
+1- create a streamlit app with requirements.txt
+
+2-  create Dockerfile (check the content)
+
+3- run the following to build the docker "docker build -t merge-pdfs-app ." from the same direcroty of the Dockerfile
+
+4- run the Docker container with this command: "docker run -d -p 8501:8501 merge-pdfs-app" The -d to make it run in the background. 
+   the port is specified 
